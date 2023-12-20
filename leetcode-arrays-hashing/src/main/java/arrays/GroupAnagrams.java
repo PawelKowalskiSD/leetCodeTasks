@@ -5,7 +5,6 @@ import java.util.*;
 public class GroupAnagrams {
     public List<List<String>> groupAnagrams(String[] strs) {
         Map<String , List<String>> anagrams = new HashMap<>();
-        List<List<String>> alpha = new ArrayList<>();
         for (int i = 0; i < strs.length; i++) {
             char[] result = strs[i].toCharArray();
             Arrays.sort(result);
@@ -15,7 +14,6 @@ public class GroupAnagrams {
             }
             anagrams.get(text).add(strs[i]);
         }
-        alpha.addAll(anagrams.values());
-        return alpha;
+        return new ArrayList<>(anagrams.values());
     }
 }
