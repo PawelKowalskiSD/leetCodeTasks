@@ -4,6 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class UniqueEmailAddresses {
+
     public int numUniqueEmails(String[] emails) {
         Set<String> resultSet = new HashSet<>();
         for (int i = 0; i < emails.length; i++) {
