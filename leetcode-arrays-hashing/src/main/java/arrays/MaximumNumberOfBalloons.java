@@ -6,7 +6,7 @@ public class MaximumNumberOfBalloons {
     public int counterNumberOfBalloon(String text) {
         HashMap<Character, Integer> balloon = new HashMap<>();
         HashMap<Character, Integer> countText = new HashMap<>();
-        char[] balloonArray = "ballon".toCharArray();
+        char[] balloonArray = "balloon".toCharArray();
         for (char i : balloonArray) {
             if (balloon.containsKey(i)) {
                 balloon.put(i, balloon.get(i) + 1);
