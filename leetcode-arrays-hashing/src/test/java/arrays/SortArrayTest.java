@@ -15,10 +15,10 @@ class SortArrayTest {
         int[] output1 = {1,2,3,5};
         int[] output2 = {0,0,1,1,2,5};
         //When
-//        int[] result1 = sortArray.sort(input1);
+        int[] result1 = sortArray.sort(input1);
         int[] result2 = sortArray.sort(input2);
         //Then
-//        assertArrayEquals(output1, result1);
+        assertArrayEquals(output1, result1);
         assertArrayEquals(output2, result2);
     }
 }
