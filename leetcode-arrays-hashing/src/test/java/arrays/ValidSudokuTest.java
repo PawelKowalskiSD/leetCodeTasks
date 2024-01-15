@@ -37,9 +37,9 @@ class ValidSudokuTest {
                 };
         //When
         boolean result1 = validSudoku.isValidSudoku(input1);
-//        boolean result2 = validSudoku.isValidSudoku(input2);
+        boolean result2 = validSudoku.isValidSudoku(input2);
         //Then
         assertTrue(result1);
-//        assertFalse(result2);
+        assertFalse(result2);
     }
 }
