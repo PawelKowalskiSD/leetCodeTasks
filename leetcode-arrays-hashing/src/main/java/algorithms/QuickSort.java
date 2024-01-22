@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class QuickSort {
 
-    public int sortBasic(int[] nums, int start, int end) {
+    public int sortBasic(int[] nums, int start, int end) { //QUICK SORT (BEST n log(n), AVERAGE (n log(n), WORST(n^2)
         int pivot = nums[end];
         int x = start - 1;
         for (int i = start; i < end; i++) {
