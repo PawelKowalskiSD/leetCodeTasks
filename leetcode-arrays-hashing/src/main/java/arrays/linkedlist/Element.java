@@ -3,7 +3,7 @@ package arrays.linkedlist;
 public class Element {
     private Element next;
     private Element prev;
-    private String value;
+    private final String value;
 
     public Element(String value) {
         this.value = value;
