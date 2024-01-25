@@ -6,9 +6,9 @@ public class Element {
     private String value;
 
     public Element(String value) {
+        this.value = value;
         this.next = null;
         this.prev = null;
-        this.value = value;
     }
 
     public String getValue() {
@@ -23,11 +23,16 @@ public class Element {
         return prev;
     }
 
-    public Element setNext(Element next) {
-        return this.next;
+    public void setNext(Element next) {
+        this.next = next;
     }
 
-    public Element setPrev(Element prev) {
-        return this.prev;
+    public void setPrev(Element prev) {
+        this.prev = prev;
+    }
+
+    @Override
+    public String toString() {
+        return value;
     }
 }

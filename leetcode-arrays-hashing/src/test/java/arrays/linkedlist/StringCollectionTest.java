@@ -31,10 +31,21 @@ class StringCollectionTest {
         //Given
         StringCollection stringCollection = new StringCollection();
         String input1 = "Pawel";
+        String input2 = "Rafal";
+        String input3 = "Piotr";
         //When
         stringCollection.addElement(input1);
+        stringCollection.addElement(input2);
+        stringCollection.addElement(input3);
+
         //Then
-        assertEquals("Pawel", stringCollection.getElement(0));
+        String result1 = stringCollection.getElement(0);
+        String result2 = stringCollection.getElement(1);
+        String result3 = stringCollection.getElement(2);
+
+        assertEquals("Pawel", result1);
+        assertEquals("Rafal", result2);
+        assertEquals("Piotr", result3);
     }
 
     @Test
