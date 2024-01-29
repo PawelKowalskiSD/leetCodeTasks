@@ -1,4 +1,4 @@
-package arrays;
+package twoPointers;
 
 public class MergeStringsAlternately {
     public String mergeAlternately(String word1, String word2) {

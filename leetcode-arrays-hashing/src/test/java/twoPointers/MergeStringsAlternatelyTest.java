@@ -1,6 +1,7 @@
-package arrays;
+package twoPointers;
 
 import org.junit.jupiter.api.Test;
+import twoPointers.MergeStringsAlternately;
 
 import static org.junit.jupiter.api.Assertions.*;
 

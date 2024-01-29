@@ -1,6 +1,7 @@
-package arrays;
+package twoPointers;
 
 import org.junit.jupiter.api.Test;
+import twoPointers.MinDifBetHigAndLowOfKSco;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
